@@ -21,5 +21,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_pre_trans_resnet50_msi_4ep
                                       --n-epochs 4 \
                                       --monitor-metric 'auroc_val' \
                                       --efficient-finetuning True \
+                                      --train \
                                       --k-fold 3
 echo "Finished at: $(date)"

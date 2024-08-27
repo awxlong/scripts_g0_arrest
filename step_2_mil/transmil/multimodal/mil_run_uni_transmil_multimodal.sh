@@ -20,5 +20,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_transmil_uni_multimodal_32
                                       --mil-algorithm "TransMILMultimodal" \
                                       --n-epochs 32 \
                                       --monitor-metric 'auroc_val' \
+                                      --train \
                                       --k-fold 5
 echo "Finished at: $(date)"

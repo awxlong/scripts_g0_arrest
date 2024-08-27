@@ -21,5 +21,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_camil_uni_30epochs_cv5_red
                                       --n-epochs 30 \
                                       --monitor-metric 'auroc_val' \
                                       --k-fold 5 \
+                                      --train \
                                       --num-workers 0
 echo "Finished at: $(date)"

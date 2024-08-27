@@ -20,5 +20,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'attentionMIL_uni_32epoch_rerun
                                       --mil-algorithm "AttentionMIL" \
                                       --n-epochs 32 \
                                       --monitor-metric 'auroc_val' \
+                                      --train \
                                       --k-fold 5
 echo "Finished at: $(date)"

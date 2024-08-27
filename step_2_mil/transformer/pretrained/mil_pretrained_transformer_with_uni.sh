@@ -17,5 +17,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil-pretrained-MSI' \
                                       --label-dict "{'negative':0,'positive':1}" \
                                       --mil-algorithm "Transformer" \
                                       --pretrained-weights-dir '/home/xuelonan/secrier_lab/persistence/HistoMIL/MODEL/Image/MIL/Transformer/pretrained_weights/' \
+                                      --train \
                                       --pretrained-weights-name 'MSI_high_CRC_model.pth'
 echo "Finished at: $(date)"

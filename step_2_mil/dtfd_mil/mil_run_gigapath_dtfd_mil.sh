@@ -21,5 +21,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_dtfd_gigapath_42epochs_cv5
                                       --mil-algorithm "DTFD-MIL" \
                                       --n-epochs 42 \
                                       --monitor-metric 'auroc_val' \
+                                      --train \
                                       --k-fold 5
 echo "Finished at: $(date)"

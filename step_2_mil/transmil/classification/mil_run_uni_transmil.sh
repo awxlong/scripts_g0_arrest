@@ -18,7 +18,8 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_transmil_uni_100epochs_rer
                                       --precomputed 'uni' \
                                       --label-dict "{0:0,1:1}" \
                                       --mil-algorithm "TransMIL" \
-                                      --n-epochs 100 \
+                                      --n-epochs 42 \
                                       --monitor-metric 'auroc_val' \
+                                      --train \
                                       --k-fold 5
 echo "Finished at: $(date)"

@@ -18,5 +18,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil-pretrained-MSI-resnet50' \
                                       --mil-algorithm "Transformer" \
                                       --pretrained-weights-dir '/home/xuelonan/secrier_lab/persistence/HistoMIL/MODEL/Image/MIL/Transformer/pretrained_weights/' \
                                       --pretrained-weights-name 'MSI_high_CRC_model.pth'\
+                                      --train \
                                       --n-epochs 4
 echo "Finished at: $(date)"

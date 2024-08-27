@@ -20,5 +20,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_transmil_uni_regression_32
                                       --mil-algorithm "TransMILRegression" \
                                       --n-epochs 32 \
                                       --monitor-metric 'f1_val' \
+                                      --train \
                                       --k-fold 5
 echo "Finished at: $(date)"

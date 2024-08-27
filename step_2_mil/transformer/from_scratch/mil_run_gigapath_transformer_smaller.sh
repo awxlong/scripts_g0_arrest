@@ -20,5 +20,6 @@ python3 HistoMIL/Notebooks/mil_run.py --exp-name 'mil_transformer_gigapath_8epoc
                                       --n-epochs 8 \
                                       --monitor-metric 'auroc_val' \
                                       --efficient-finetuning False \
+                                      --train \
                                       --k-fold 5
 echo "Finished at: $(date)"
